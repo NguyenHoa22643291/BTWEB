@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        fieldset:nth-child(2) label:first-child {
+            display: inline-block;
+            width: 80px;
+            text-align: left;
+        }
+        fieldset:nth-child(3) label:first-child {
+            display: inline-block;
+            width: 160px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <form style="width: 800px; margin: 0 auto">
+        <h1>Contact Us</h1>
+        <fieldset
+            style="
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            "
+        >
+            <legend>Your message:</legend>
+            <div>
+                <label for="to">To</label>
+                <input type="text" name="to" id="to" value="Example Cafe" />
+            </div>
+            <div>
+                <label for="mail">Your mail</label>
+                <input type="email" name="mail" id="mail" />
+            </div>
+            <div style="display: flex; align-items: center">
+                <label for="message" style="margin-right: 4px"
+                    >Message</label
+                >
+                <textarea
+                    name="message"
+                    id="message"
+                    cols="60"
+                    rows="8"
+                ></textarea>
+            </div>
+            <div>
+                <label for="file">Attach File</label>
+                <input type="file" name="file" id="file" />
+            </div>
+        </fieldset>
+        <fieldset style="padding: 10px">
+            <legend>How you found us:</legend>
+            <div>
+                <label for="hear">How did you hear of us</label>
+                <select name="hear" id="hear" style="width: 150px">
+                    <option value="Google">Google</option>
+                    <option value="Youtube">Youtube</option>
+                    <option value="Tiktok">Tiktok</option>
+                </select>
+            </div>
+            <div style="margin-top: 5px">
+                <label for="check">Newsletter</label>
+                <div style="display: inline-block">
+                    <input type="checkbox" name="check" id="check" />
+                    <span
+                        >Ensure this box is checked if you would like to
+                        receive email updates</span
+                    >
+                </div>
+            </div>
+        </fieldset>
+        <button type="submit">Send message</button>
+    </form>
+    
+</body>
+</html>

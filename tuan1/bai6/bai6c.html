@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        input {
+            width: 200px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form
+            action=""
+            style="
+                width: 300px;
+                margin: 0 auto;
+                border: 1px solid blue;
+                padding: 5px;
+                height: 620px;
+                display: flex;
+                flex-direction: column;
+            "
+        >
+            <div style="display: flex; flex-direction: column; gap: 2px">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" />
+            </div>
+            <div
+                style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                    margin-top: 10px;
+                "
+            >
+                <label for="tel">Telephone Number:</label>
+                <input type="tel" name="name" id="name" />
+            </div>
+            <div
+                style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                    margin-top: 10px;
+                "
+            >
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" />
+            </div>
+            <div
+                style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                    margin-top: 10px;
+                "
+            >
+                <label for="color">Favorite Color:</label>
+                <input
+                    type="color"
+                    name="color"
+                    id="color"
+                    value="#0000ff"
+                    style="width: 60px; padding: 0"
+                />
+            </div>
+            <div
+                style="
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2px;
+                    margin-top: 10px;
+                "
+            >
+                <label for="date">Date of Birth:</label>
+                <input type="date" name="date" id="date" style="width: 150px" />
+            </div>
+            <button
+                style="
+                    margin-top: auto;
+                    width: 100px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 5px;
+                "
+            >
+                Submit
+            </button>
+        </form>
+    
+</body>
+</html>
