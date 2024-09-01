@@ -1,0 +1,114 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+}
+
+.main {
+    margin: 8px;
+}
+
+.content {
+    margin-top: 24px;
+    display: flex;
+}
+
+.content .nav {
+    width: 15%;
+    height: 150px;
+    background-color: aliceblue;
+    position: relative;
+    box-shadow: 2px 2px 1px 1px #ccc inset, 2px 2px 1px 2px #424242;
+    display: flex;
+}
+
+.content .nav::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2%;
+    height: 96%;
+    background-color: #ccc;
+    right: 2px;
+    bottom: 0;
+}
+
+.content .nav::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 96%;
+    height: 2%;
+    background-color: #ccc;
+    left: 7px;
+    bottom: 0;
+}
+
+.content .nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 2px 0 10px 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.content .section {
+    border-left: 2px solid green;
+    margin-left: 30px;
+    width: 85%;
+    color: #fff;
+}
+
+.section h1 {
+    width: 80%;
+    background-color: green;
+    margin-left: 30px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 0 80px;
+    letter-spacing: 20px;
+}
+
+.section .welcome {
+    display: flex;
+    margin-top: 30px;
+}
+
+section.image {
+    width: 85%;
+}
+
+section.welcome.passage {
+    margin-left: 30px;
+}
+
+.section .passage p {
+    margin: 20px 0;
+    padding-left: 10px;
+}
+
+.section .info {
+    margin-left: 30px;
+}
+
+.info h2 {
+    font-weight: 600;
+    font-size: 18px;
+    background-color: green;
+    width: 40%;
+    margin: 0;
+    padding: 0 16px;
+}
+
+.info ul {
+    margin: 30px 0 30px 50px;
+}

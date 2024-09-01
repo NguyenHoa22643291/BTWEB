@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main {
+    margin: 0 50px 0 0;
+}
+
+.main .header {
+    border-bottom: 3px solid orange;
+    height: 12vh;
+}
+
+.main .header .img {
+    display: flex;
+    margin-right: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.nav {
+    background-image: url(../img/back.jpg);
+    background-repeat: repeat-y;
+    width: 16%;
+    height: 110vh;
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 2px 0 0 10px;
+    font-size: 18px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.nav ul li :first-child {
+    margin: 5px 0 0 0;
+    padding: 0 0 5px 0;
+}
+
+.nav ul li {
+    border-bottom: 2px dashed rgb(208, 144, 25);
+    padding: 6px 0;
+    margin: 0;
+    width: 62%;
+}
+
+.connn {
+    width: 84%;
+    margin: 20px 0;
+}
+
+.connn .Start {
+    margin-bottom: 20px;
+}
+
+.connn .Start h1 {
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.connn.Start.image {
+    position: relative;
+}
+
+.connn .Start .image .anh2 {
+    margin-left: 30px;
+    width: 570px;
+    height: 700px;
+}
+
+.Start .image .container1 {
+    width: 200px;
+    height: 180px;
+    background-color: rgb(254, 255, 239);
+    color: brown;
+    border: 4px inset;
+    position: absolute;
+    top: 20%;
+    left: 750px;
+    display: flex;
+    padding: 5px;
+}
+
+.Start .image .container2 {
+    width: 200px;
+    height: 120px;
+    background-color: rgb(254, 255, 239);
+    color: brown;
+    border: 4px inset;
+    position: absolute;
+    top: 60%;
+    left: 170px;
+    padding: 3px;
+}
+
+.Start .image .container3 {
+    width: 200px;
+    height: 140px;
+    background-color: rgb(254, 255, 239);
+    color: brown;
+    border: 4px inset;
+    position: absolute;
+    top: 90%;
+    left: 700px;
+    padding: 3px;
+}
+
+.footer {
+    font-size: 20px;
+    border-top: 3px solid orange;
+    color: orange;
+    text-align: center;
+    line-height: 30px;
+}

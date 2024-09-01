@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    width: 98%;
+    height: 100vh;
+    margin: 1% auto;
+}
+
+header {
+    background-image: url(../img/background.png);
+    height: 20%;
+}
+
+header .trademark {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+header .trademark img {
+    width: 8%;
+}
+
+header .trademark h3 {
+    font-size: 2rem;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 2px;
+}
+
+header .trademark h3 p {
+    font-size: 1rem;
+}
+
+nav {
+    height: 5%;
+    width: 100%;
+    background: #a5a3a3;
+}
+
+nav ul {
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    height: 100%;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li:hover {
+    color: black;
+}
+
+.content {
+    display: flex;
+}
+
+.content section {
+    width: 80%;
+}
+
+.content aside {
+    width: 20%;
+}
+
+.food {
+    display: flex;
+    margin: 1%;
+}
+
+.food .name {
+    border: 1px solid #d3d2d2;
+    padding: 1%;
+}
+
+.food .name .p {
+    margin: 0% 2% 2% 2%;
+}
+
+.food .description {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.food .description h3 {
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+.food .description h3 p {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: rgb(247, 184, 193);
+    margin-bottom: 20px;
+}
+
+.food .description p {
+    font-family: Georgia;
+    font-size: 14px;
+}
+
+.content aside {
+    border: 1px solid #d3d2d2;
+}
+
+.content aside section {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.content aside section h3 {
+    color: rgb(247, 184, 193);
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.content aside section ul {
+    color: rgb(247, 184, 193);
+    list-style: none;
+    font-size: 20px;
+}
+
+.content aside section ul li {
+    margin: 10px 3px;
+}
+
+.content aside section ol {
+    list-style: none;
+    font-size: 20px;
+}
+
+.content aside section ol li {
+    margin: 10px 3px;
+}
+
+footer {
+    background: #a5a3a3;
+    height: 5%;
+    width: 100%;
+    color: #fff;
+    align-items: flex-end;
+    display: flex;
+}
+
+footer p {
+    margin-left: 10px;
+    font-size: 15px;
+}
